@@ -17,13 +17,19 @@ function MainFooter() {
             <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="https://www.linkedin.com/in/do%C4%9Fukan-%C3%B6zt%C3%BCrk-862497221/">
+              About
+            </a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="https://www.linkedin.com/in/do%C4%9Fukan-%C3%B6zt%C3%BCrk-862497221/">
+              Services
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="https://www.linkedin.com/in/do%C4%9Fukan-%C3%B6zt%C3%BCrk-862497221/">
+              Contact
+            </a>
           </li>
         </ul>
         <p className="mt-4 sm:mt-0">

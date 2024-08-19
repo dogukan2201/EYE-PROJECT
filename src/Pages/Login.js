@@ -4,7 +4,6 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaFacebook, FaImdb } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { login } from "../Firebase/firebase";
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { Toaster } from "react-hot-toast";
 import { loginHandle } from "../Redux/AuthSlice";
@@ -15,10 +14,8 @@ import { setWatchList } from "../Redux/WatchListSlice";
 function Login() {
   const [email, setMail] = useState("");
   const [password, setPassword] = useState("");
-  const { watchList } = useSelector((state) => state.watchList);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [userList, setUserList] = useState([]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
