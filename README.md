@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+**ENGLISH:**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, you developed a web application using Firebase and React that allows users to search for movies, add the movies they want to a watchlist, and have this data stored securely in Firebase.
 
-## Available Scripts
+### Features of the Project:
 
-In the project directory, you can run:
+- **Movie Search:** Users can find movies they are interested in with a movie search engine on the app. Searches list movie data from the API based on specific keywords and categories.
 
-### `npm start`
+- **Movie Details:** The listed movies provide the user with detailed information about the movie. This information includes important details such as the movie name, actors, synopsis, and release date.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Watchlist:** Users can add the movies they like to their watch lists. This feature allows users to easily keep track of the movies they want to watch later.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Management:** Users can securely store their personal information and watchlists in Firebase by registering with the application. After logging in, users can access movies they have previously added and update their watch lists.
 
-### `npm test`
+- **Firebase Integration:** Firebase is used to store user information, session management, and watchlists. This ensures the security and accessibility of the data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Experience (UX):** A user-friendly interface makes searching and finding movies easy. A simple and intuitive navigation structure helps users quickly find the content they are looking for.
 
-### `npm run build`
+- **Security:** Thanks to the authentication and data management features provided by Firebase, the security of user information is prioritized.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Data Management:** Data added by users (movies and user information) is effectively managed and stored with Firebase's powerful database services.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Performance:** Thanks to the integrated use of React and Firebase, the application runs fast and efficiently. This allows users to receive instant feedback and ensures the uninterrupted operation of the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project aims to provide a user-oriented, safe, and high-performance movie viewing experience using modern web technologies.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**TÜRKÇE:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bu projede, Firebase ve React kullanarak kullanıcıların film aramaları yapabilmesini, istedikleri filmleri bir izleme listesine ekleyebilmesini ve bu verilerin güvenli bir şekilde Firebase'de saklanmasını sağlayan bir web uygulaması geliştirdiniz.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Projenin Özellikleri:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Film Arama:** Kullanıcılar, uygulama üzerinden bir film arama motoru ile ilgilendikleri filmleri bulabilirler. Aramalar, belirli anahtar kelimelere ve kategorilere göre API'den alınan film verilerini listeler.
 
-## Learn More
+- **Film Detayları:** Listelenen filmler, kullanıcıya film hakkında detaylı bilgiler sunar. Bu bilgiler, film adı, oyuncular, özet, çıkış tarihi gibi önemli ayrıntıları içerir.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Watchlist (İzleme Listesi):** Kullanıcılar beğendikleri filmleri izleme listelerine ekleyebilir. Bu özellik, kullanıcıların daha sonra izlemek istedikleri filmleri kolayca takip etmelerine olanak tanır.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Kullanıcı Yönetimi:** Kullanıcılar, uygulamaya kayıt olarak kişisel bilgilerini ve izleme listelerini Firebase'de güvenli bir şekilde saklayabilir. Giriş yaptıktan sonra kullanıcılar, daha önce ekledikleri filmlere erişebilir ve izleme listelerini güncelleyebilirler.
 
-### Code Splitting
+- **Firebase Entegrasyonu:** Firebase, kullanıcı bilgilerini, oturum yönetimini ve izleme listelerini saklamak için kullanılır. Bu sayede, verilerin güvenliği ve erişilebilirliği sağlanmış olur.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Kullanıcı Deneyimi (UX):** Kullanıcı dostu bir arayüz, filmleri kolayca arayıp bulmayı sağlar. Basit ve sezgisel bir navigasyon yapısı, kullanıcıların aradıkları içeriklere hızlıca ulaşmalarına yardımcı olur.
 
-### Analyzing the Bundle Size
+- **Güvenlik:** Firebase'in sağladığı kimlik doğrulama ve veri yönetimi özellikleri sayesinde kullanıcı bilgilerinin güvenliği ön planda tutulur.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Veri Yönetimi:** Kullanıcılar tarafından eklenen veriler (filmler ve kullanıcı bilgileri) Firebase'in güçlü veri tabanı hizmetleriyle etkin bir şekilde yönetilir ve saklanır.
 
-### Making a Progressive Web App
+- **Performans:** React ve Firebase'in entegre kullanımı sayesinde, uygulamanın hızlı ve verimli çalışması sağlanır. Bu, kullanıcıların anında geri bildirim almasına ve uygulamanın kesintisiz çalışmasına olanak tanır.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bu proje, modern web teknolojilerini kullanarak kullanıcı odaklı, güvenli ve performanslı bir film izleme deneyimi sunmayı hedefler.
