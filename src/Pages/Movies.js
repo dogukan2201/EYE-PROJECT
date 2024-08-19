@@ -2,16 +2,9 @@ import React from "react";
 import MoviesHeader from "../Components/MoviesHeader";
 import ResultCard from "../Components/ResultCard";
 import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
-import { getData } from "../Firebase/firebase";
-import { useEffect } from "react";
-import { addWatchList, setWatchList } from "../Redux/WatchListSlice";
 import { BiMovie } from "react-icons/bi";
 
 function Movies() {
-  const { user } = useSelector((state) => state.auth);
-  const { watchList } = useSelector((state) => state.watchList);
-  const dispatch = useDispatch();
   const { searchMovies } = useSelector((state) => state.search);
 
   return (
