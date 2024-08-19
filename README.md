@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Bu projede, Firebase ve React kullanarak kullanıcıların film aramaları yapabilmesini, istedikleri filmleri bir izleme listesine ekleyebilmesini ve bu verilerin güvenli bir şekilde Firebase'de saklanmasını sağlayan bir web uygulaması geliştirdiniz.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projenin Özellikleri:
+Film Arama: Kullanıcılar, uygulama üzerinden bir film arama motoru ile ilgilendikleri filmleri bulabilirler. Aramalar, belirli anahtar kelimelere ve kategorilere göre API'den alınan film verilerini listeler.
 
-## Available Scripts
+Film Detayları: Listelenen filmler, kullanıcıya film hakkında detaylı bilgiler sunar. Bu bilgiler, film adı, oyuncular, özet, çıkış tarihi gibi önemli ayrıntıları içerir.
 
-In the project directory, you can run:
+Watchlist (İzleme Listesi): Kullanıcılar beğendikleri filmleri izleme listelerine ekleyebilir. Bu özellik, kullanıcıların daha sonra izlemek istedikleri filmleri kolayca takip etmelerine olanak tanır.
 
-### `npm start`
+Kullanıcı Yönetimi: Kullanıcılar, uygulamaya kayıt olarak kişisel bilgilerini ve izleme listelerini Firebase'de güvenli bir şekilde saklayabilir. Giriş yaptıktan sonra kullanıcılar, daha önce ekledikleri filmlere erişebilir ve izleme listelerini güncelleyebilirler.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Firebase Entegrasyonu: Firebase, kullanıcı bilgilerini, oturum yönetimini ve izleme listelerini saklamak için kullanılır. Bu sayede, verilerin güvenliği ve erişilebilirliği sağlanmış olur.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Profesyonel Yaklaşım:
+Kullanıcı Deneyimi (UX): Kullanıcı dostu bir arayüz, filmleri kolayca arayıp bulmayı sağlar. Basit ve sezgisel bir navigasyon yapısı, kullanıcıların aradıkları içeriklere hızlıca ulaşmalarına yardımcı olur.
+Güvenlik: Firebase'in sağladığı kimlik doğrulama ve veri yönetimi özellikleri sayesinde kullanıcı bilgilerinin güvenliği ön planda tutulur.
+Veri Yönetimi: Kullanıcılar tarafından eklenen veriler (filmler ve kullanıcı bilgileri) Firebase'in güçlü veri tabanı hizmetleriyle etkin bir şekilde yönetilir ve saklanır.
+Performans: React ve Firebase'in entegre kullanımı sayesinde, uygulamanın hızlı ve verimli çalışması sağlanır. Bu, kullanıcıların anında geri bildirim almasına ve uygulamanın kesintisiz çalışmasına olanak tanır.
+Bu proje, modern web teknolojilerini kullanarak kullanıcı odaklı, güvenli ve performanslı bir film izleme deneyimi sunmayı hedefler.
