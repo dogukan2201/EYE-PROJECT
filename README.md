@@ -1,6 +1,6 @@
 **ENGLISH:**
 
-In this project, you developed a web application using Firebase and React that allows users to search for movies, add the movies they want to a watchlist, and have this data stored securely in Firebase.
+In this project, I developed a web application using Firebase and React that allows users to search for movies, add the movies they want to a watchlist, and have this data stored securely in Firebase.
 
 ### Features of the Project:
 
@@ -28,7 +28,7 @@ This project aims to provide a user-oriented, safe, and high-performance movie v
 
 **TÜRKÇE:**
 
-Bu projede, Firebase ve React kullanarak kullanıcıların film aramaları yapabilmesini, istedikleri filmleri bir izleme listesine ekleyebilmesini ve bu verilerin güvenli bir şekilde Firebase'de saklanmasını sağlayan bir web uygulaması geliştirdiniz.
+Bu projede, Firebase ve React kullanarak kullanıcıların film aramaları yapabilmesini, istedikleri filmleri bir izleme listesine ekleyebilmesini ve bu verilerin güvenli bir şekilde Firebase'de saklanmasını sağlayan bir web uygulaması geliştirdim.
 
 ### Projenin Özellikleri:
 
