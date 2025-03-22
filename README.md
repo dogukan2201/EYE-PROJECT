@@ -1,53 +1,50 @@
-**ENGLISH:**
+# Movie Watchlist App
 
-In this project, I developed a web application using Firebase and React that allows users to search for movies, add the movies they want to a watchlist, and have this data stored securely in Firebase.
+This project is a web application developed using Firebase and React that allows users to search for movies, add selected movies to a personalized watchlist, and securely store this data in Firebase.
 
-### Features of the Project:
+## Features
 
-- **Movie Search:** Users can find movies they are interested in with a movie search engine on the app. Searches list movie data from the API based on specific keywords and categories.
+### Movie Search
+- Users can search for movies using specific keywords and categories.
+- Movie data is fetched dynamically from an API and displayed accordingly.
 
-- **Movie Details:** The listed movies provide the user with detailed information about the movie. This information includes important details such as the movie name, actors, synopsis, and release date.
+### Movie Details
+- Detailed information about each movie is provided, including:
+  - Title
+  - Cast
+  - Synopsis
+  - Release Date
 
-- **Watchlist:** Users can add the movies they like to their watch lists. This feature allows users to easily keep track of the movies they want to watch later.
+### Watchlist
+- Users can add movies to their personalized watchlist.
+- This allows users to easily keep track of movies they want to watch later.
 
-- **User Management:** Users can securely store their personal information and watchlists in Firebase by registering with the application. After logging in, users can access movies they have previously added and update their watch lists.
+### User Management
+- Users can create accounts and securely manage their information.
+- Logged-in users can access and update their watchlists at any time.
 
-- **Firebase Integration:** Firebase is used to store user information, session management, and watchlists. This ensures the security and accessibility of the data.
+### Firebase Integration
+- Firebase handles:
+  - User authentication
+  - Data storage for watchlists and user profiles
+  - Session management for a seamless experience
 
-- **User Experience (UX):** A user-friendly interface makes searching and finding movies easy. A simple and intuitive navigation structure helps users quickly find the content they are looking for.
+### User Experience (UX)
+- Designed with a clean and intuitive interface.
+- Effortless navigation enables users to find content easily.
 
-- **Security:** Thanks to the authentication and data management features provided by Firebase, the security of user information is prioritized.
+### Security
+- Firebase authentication ensures secure user data management.
+- User information and movie preferences are stored safely.
 
-- **Data Management:** Data added by users (movies and user information) is effectively managed and stored with Firebase's powerful database services.
+### Data Management
+- Firebase's powerful database services ensure effective data management.
+- Ensures data consistency and quick retrieval.
 
-- **Performance:** Thanks to the integrated use of React and Firebase, the application runs fast and efficiently. This allows users to receive instant feedback and ensures the uninterrupted operation of the application.
+### Performance
+- Optimized integration of React and Firebase ensures fast and efficient performance.
+- Users receive instant feedback, ensuring a smooth and uninterrupted experience.
 
-This project aims to provide a user-oriented, safe, and high-performance movie viewing experience using modern web technologies.
+## Project Goal
+This project is designed to offer users a safe, user-friendly, and high-performance movie browsing experience by leveraging modern web technologies.
 
----
-
-**TÜRKÇE:**
-
-Bu projede, Firebase ve React kullanarak kullanıcıların film aramaları yapabilmesini, istedikleri filmleri bir izleme listesine ekleyebilmesini ve bu verilerin güvenli bir şekilde Firebase'de saklanmasını sağlayan bir web uygulaması geliştirdim.
-
-### Projenin Özellikleri:
-
-- **Film Arama:** Kullanıcılar, uygulama üzerinden bir film arama motoru ile ilgilendikleri filmleri bulabilirler. Aramalar, belirli anahtar kelimelere ve kategorilere göre API'den alınan film verilerini listeler.
-
-- **Film Detayları:** Listelenen filmler, kullanıcıya film hakkında detaylı bilgiler sunar. Bu bilgiler, film adı, oyuncular, özet, çıkış tarihi gibi önemli ayrıntıları içerir.
-
-- **Watchlist (İzleme Listesi):** Kullanıcılar beğendikleri filmleri izleme listelerine ekleyebilir. Bu özellik, kullanıcıların daha sonra izlemek istedikleri filmleri kolayca takip etmelerine olanak tanır.
-
-- **Kullanıcı Yönetimi:** Kullanıcılar, uygulamaya kayıt olarak kişisel bilgilerini ve izleme listelerini Firebase'de güvenli bir şekilde saklayabilir. Giriş yaptıktan sonra kullanıcılar, daha önce ekledikleri filmlere erişebilir ve izleme listelerini güncelleyebilirler.
-
-- **Firebase Entegrasyonu:** Firebase, kullanıcı bilgilerini, oturum yönetimini ve izleme listelerini saklamak için kullanılır. Bu sayede, verilerin güvenliği ve erişilebilirliği sağlanmış olur.
-
-- **Kullanıcı Deneyimi (UX):** Kullanıcı dostu bir arayüz, filmleri kolayca arayıp bulmayı sağlar. Basit ve sezgisel bir navigasyon yapısı, kullanıcıların aradıkları içeriklere hızlıca ulaşmalarına yardımcı olur.
-
-- **Güvenlik:** Firebase'in sağladığı kimlik doğrulama ve veri yönetimi özellikleri sayesinde kullanıcı bilgilerinin güvenliği ön planda tutulur.
-
-- **Veri Yönetimi:** Kullanıcılar tarafından eklenen veriler (filmler ve kullanıcı bilgileri) Firebase'in güçlü veri tabanı hizmetleriyle etkin bir şekilde yönetilir ve saklanır.
-
-- **Performans:** React ve Firebase'in entegre kullanımı sayesinde, uygulamanın hızlı ve verimli çalışması sağlanır. Bu, kullanıcıların anında geri bildirim almasına ve uygulamanın kesintisiz çalışmasına olanak tanır.
-
-Bu proje, modern web teknolojilerini kullanarak kullanıcı odaklı, güvenli ve performanslı bir film izleme deneyimi sunmayı hedefler.
